@@ -12,7 +12,7 @@ The code can be used to run simulations of the onset and development of prostate
 ### Files 
 
 ### folder 'subroutines_ABM'
-Contains all files to run the prostate cancer agent based model (PCABM). Model was based on the PCABM developed by M. van Genderen and the ABM for CRC by Jakob Nikolas Kather et al. (2017) For detailed explanations on interactions between cell types, please see the paper. 
+Contains all files to run the prostate cancer agent based model (PCABM). 
 
 - **getSystemParams_long**: Retrieves all general parameters needed for model simulations, for simulations with timesteps of 12 hours. If you want to change a parameter, you can do it here. 
 - **getSystemParams_variable**: Retrieves all general parameters needed for the model simulations, adjusting them to any timestep (lower than 15 hours). You should provide this timestep in ABM_run_variable
