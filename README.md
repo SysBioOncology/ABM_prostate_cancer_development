@@ -9,6 +9,9 @@ To validate the model simulations, in silico growth patterns were compared to gr
 ### Uses of the model 
 The code can be used to run simulations of the onset and development of prostate cancer in a prostatic acinus. Model parameters can be adjusted to mimick specific classes of patients and a multitude of outputs can be plotted and studied. In order to run the general model, the function *Example_run_ABM* needs to be in the main folder. Additionally, the user needs to place the 'subroutines_ABM' folder in this main folder. The *Example_run_ABM* script can then be run: it will show the video of the simulation and plot the amount of tumor cells and mutations over time upon finishing the simulation. Should a different time step be desired, the *ABM_run_variable* script can be used. The desired timestep can be provided in this script. Lastly, to run simulations for all described eight phenotypes, the file *Eight_phenotypes_run* should be used. This file runs the script and plots average behavior (including standard deviation) for all eight phenotypes
 
+### Software 
+The code was developed and simulations were conducted using Matlab 2021a. For full usage of the code, the following packages should be installed: Image Processing Toolbox, Statistics and Machine Learning Toolbox, the optimization toolbox and the Global Optimization Toolbox (for fitting). 
+
 ### Files 
 
 ### folder 'subroutines_ABM'
