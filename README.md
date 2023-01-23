@@ -1,5 +1,6 @@
 # ABM_prostate_cancer_development
-Code used in the paper "Multicellular agent-based model of prostate tumor onset and development" by Passier et al.
+Code used in the paper "Multicellular agent-based model of prostate tumor onset and development" by Passier et al. 
+Part of the code is adapted from a model by Kather et. al. (2017) http://dx.doi.org/10.5281/zenodo.853342
 
 ### General description 
 In this study, we created a 2D Agent-Based Model (ABM) to simulate prostate cancer onset and development in a prostatic acinus. The model includes the following agents: basement membrane, basal cells, fibroblasts, luminal cells (capable of gaining mutations), stem cells, M1 and M2 macrophages, Cancer Associated Fibroblasts and stroma. All in silico experiments were conducted using a 125x125 grid and timesteps of 12 hours. Model parameters were fitted to experimental in vitro data of cell cultures of the tumor cells (luminal cells), fibroblasts, M1 and M2 macrophages. Parameters for the other cell types were based on literature (for a detailed description of the derivation of all model parameters, please see the supplementary tables of the paper). 
