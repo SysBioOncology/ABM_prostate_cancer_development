@@ -1,6 +1,5 @@
 # ABM_prostate_cancer_development
-Code used in the paper "Multicellular agent-based model of prostate tumor onset and development" by Passier et al. 
-Part of the code is adapted from a model by Kather et. al. (2017) http://dx.doi.org/10.5281/zenodo.853342
+Code used in the paper "Exploring the onset and progression of prostate cancer through a multicellular agent-based model" by Passier et al. 
 
 ### General description 
 In this study, we created a 2D Agent-Based Model (ABM) to simulate prostate cancer onset and development in a prostatic acinus. The model includes the following agents: basement membrane, basal cells, fibroblasts, luminal cells (capable of gaining mutations), stem cells, M1 and M2 macrophages, Cancer Associated Fibroblasts and stroma. All in silico experiments were conducted using a 125x125 grid and timesteps of 12 hours. Model parameters were fitted to experimental in vitro data of cell cultures of the tumor cells (luminal cells), fibroblasts, M1 and M2 macrophages. Parameters for the other cell types were based on literature (for a detailed description of the derivation of all model parameters, please see the supplementary tables of the paper). 
@@ -11,7 +10,7 @@ To validate the model simulations, in silico growth patterns were compared to gr
 The code can be used to run simulations of the onset and development of prostate cancer in a prostatic acinus. Model parameters can be adjusted to mimick specific classes of patients and a multitude of outputs can be plotted and studied. In order to run the general model, the function *Example_run_ABM* needs to be in the main folder. Additionally, the user needs to place the 'subroutines_ABM' folder in this main folder. The *Example_run_ABM* script can then be run: it will show the video of the simulation and plot the amount of tumor cells and mutations over time upon finishing the simulation. Should a different time step be desired, the *ABM_run_variable* script can be used. The desired timestep can be provided in this script. Lastly, to run simulations for all described eight phenotypes, the file *Eight_phenotypes_run* should be used. This file runs the script and plots average behavior (including standard deviation) for all eight phenotypes
 
 ### Software 
-The code was developed and simulations were conducted using Matlab 2021a. For full usage of the code, the following packages should be installed: the Image Processing Toolbox, the Statistics and Machine Learning Toolbox, the optimization toolbox and the Global Optimization Toolbox (the latter for fitting the parameters using PSO). 
+The code was developed and simulations were conducted using Matlab 2021a. For full usage of the code, the following packages should be installed: the Image Processing Toolbox, the Statistics and Machine Learning Toolbox, the optimization toolbox and the Global Optimization Toolbox (the latter for fitting the parameters using PSO). Part of the code is adapted from a model by Kather et. al. (2017) http://dx.doi.org/10.5281/zenodo.853342
 
 ### Files 
 
